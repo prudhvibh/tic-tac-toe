@@ -19,6 +19,7 @@ const checkStatus = function(player) {
     stopGame();
   } else if(game.isGameDraw()){
     display('result','Game is draw');
+    stopGame();
   }
 }
 
